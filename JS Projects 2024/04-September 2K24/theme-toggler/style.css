@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgb(211, 206, 206);
+}
+button i{
+    font-size: 30px;
+}

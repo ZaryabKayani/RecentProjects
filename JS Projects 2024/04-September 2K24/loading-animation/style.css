@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    width: 320px;
+    height: 55px;
+    border: 3px solid black;
+}
+.background{
+    height: 100%;
+    background: black;
+    animation: animate 3s infinite;
+    z-index: -1;
+}
+@keyframes animate{
+   from{
+       width: 10%;
+   }
+   to{
+       width: 100%;
+   }
+}
+.loading{
+    width: 320px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
